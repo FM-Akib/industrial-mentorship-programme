@@ -21,12 +21,12 @@ export default {
             borderColor: "transparent"
           },
           "100%": {
-            borderColor: "white"
+            borderColor: "[#00BF63]"
           }
         }
       },
       animation: {
-        typing: "typing 4s steps(40) infinite alternate, blink .7s infinite"
+        typing: "typing 4s steps(50) infinite alternate"
       }
     },
   },

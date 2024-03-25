@@ -15,8 +15,8 @@ const Hero = () => {
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
                 </p> */}
                  <div className="w-max">
-    <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-2xl text-gray-500 font-semibold">
-      Journey to undergraduate to industry...
+    <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-[#00BF63] pr-5 text-2xl text-gray-500 font-semibold">
+      A Journey of undergraduate to industry...
     </p>
   </div>
                 <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
