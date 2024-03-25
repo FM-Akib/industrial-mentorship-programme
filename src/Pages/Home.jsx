@@ -1,6 +1,7 @@
 import Hero from "../components/Home/Hero";
 import Instructor from "../components/Home/Instructor";
 import Stats from "../components/Home/Stats";
+import StorySection from "../components/Home/StorySection";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Hero></Hero>
             <Stats></Stats>
             <Instructor></Instructor>
+            <StorySection></StorySection>
         </div>
     );
 };
