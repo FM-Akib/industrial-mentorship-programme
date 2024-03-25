@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../assets/Hero.png';
+import hero from '../../assets/Hero.png';
 const Hero = () => {
   
     return (
@@ -7,15 +7,12 @@ const Hero = () => {
         
         <section className="mt-24 mx-auto max-w-screen-2xl pb-12 px-4 items-center lg:flex md:px-8">
             <div className="space-y-4 flex-1 sm:text-center lg:text-left">
-                <h1 className="text-gray-600 font-bold text-4xl xl:text-5xl">
+                <h1 className="text-gray-600 font-bold text-3xl xl:text-5xl">
                     Industrial Mentorship
                      <span className="text-indigo-400"> Programme</span>
                 </h1>
-                {/* <p className="text-gray-600 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-                </p> */}
                  <div className="w-max">
-    <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-[#00BF63] pr-5 text-2xl text-gray-500 font-semibold">
+    <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-[#00BF63] pr-5 text-lg md:text-2xl text-gray-500 font-semibold">
       A Journey of undergraduate to industry...
     </p>
   </div>
