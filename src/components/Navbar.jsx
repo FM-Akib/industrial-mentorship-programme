@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import '../App.css';
 import { useState } from 'react';
-
+import './Nav.css';
 const Navbar = () => {
 const [open,setOpen]= useState(false);
 
     
 return (
-    <nav className='bg-slate-50 shadow-md w-full fixed top-0 left-0'>
-       <div className="md:flex items-center justify-between bg-slate-50 py-4 md:px-60 px-7">
+    <nav className='Fjalla-font bg-slate-50 shadow-md w-full fixed top-0 left-0'>
+       <div className="md:flex items-center justify-between bg-slate-50 py-2 md:px-60 px-7">
 
        <div className="font-bold text-2xl cursor-pointer flex  items-center gap-1">
-            <img className=" w-24" src={logo}/>
+            <img className=" w-28" src={logo}/>
             {/* <span>IMP</span> */}
         </div>
 
@@ -28,13 +28,13 @@ return (
         
 
 
-            <ul className={`${open? 'top-24':'top-[-490px]'} md:z-auto z-[-1] left-0 absolute md:static md:flex md:items-center pb-12 md:pb-0 bg-slate-50 pl-9 md:pl-0 transition-all duration-500 ease-in w-full md:w-auto`}>
-            <li className="md:ml-8 md:my-0 my-7 font-semibold"><Link className="text-gray-700 hover:text-yellow-500 duration-500" to="/">Home</Link></li>
-            <li className="md:ml-8 md:my-0 my-7 font-semibold"><Link className="text-gray-700 hover:text-yellow-500 duration-500" to="/">Blog</Link></li>
-            <li className="md:ml-8 md:my-0 my-7 font-semibold"><Link className="text-gray-700 hover:text-yellow-500 duration-500" to="/">Success story</Link></li>
-            <li className="md:ml-8 md:my-0 my-7 font-semibold"><Link className="text-gray-700 hover:text-yellow-500 duration-500" to="/">Registration</Link></li>
+            <ul className={`${open? 'top-28':'top-[-490px]'} md:z-auto z-[-1]  left-0 absolute md:static md:flex md:items-center pb-12 md:pb-0 bg-slate-50 pl-9 md:pl-0 transition-all duration-500 ease-in w-full md:w-auto`}>
+            <li className="	 md:ml-8 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63]  text-gray-700  duration-500" to="/">Home</Link></li>
+            <li className="md:ml-8 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/">Blog</Link></li>
+            <li className="md:ml-8 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/">Success story</Link></li>
+            <li className="md:ml-8 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/">Registration</Link></li>
            
-            <button type="button" className=" md:ml-8 px-8 py-3 font-semibold rounded bg-green-700 text-gray-100">Login</button>
+            <button type="button" className=" md:ml-8 px-8 py-3 text-xl rounded bg-[#00BF63] text-gray-100">Login</button>
             </ul>
 
 

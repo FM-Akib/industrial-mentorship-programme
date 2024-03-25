@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 .Exo-font{
     font-family: "Exo", sans-serif;
     font-weight: 500;
+}
+.Fjalla-font{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
