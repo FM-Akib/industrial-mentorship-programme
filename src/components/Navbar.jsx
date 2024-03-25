@@ -9,7 +9,7 @@ const [open,setOpen]= useState(false);
     
 return (
     <nav className='Fjalla-font bg-slate-50 shadow-md w-full fixed top-0 left-0'>
-       <div className="md:flex items-center justify-between bg-slate-50 py-2 md:px-60 px-7">
+       <div className="md:flex items-center justify-between bg-slate-50 py-2 md:px-56 px-7">
 
        <div className="font-bold text-2xl cursor-pointer flex  items-center gap-1">
             <img className=" w-28" src={logo}/>
