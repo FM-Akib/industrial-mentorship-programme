@@ -1,9 +1,9 @@
 import React from 'react';
 
 const StorySection = () => {
-    return (
-        <div>
-            <div className="max-w-7xl mx-auto my-8 px-2">
+return (
+    <div>
+        <div className="max-w-7xl mx-auto my-8 px-2">
 
 <div className="py-10 flex tracking-tight text-gray-600 justify-center text-3xl md:text-4xl font-bold">
     Success Stories
@@ -123,10 +123,9 @@ const StorySection = () => {
 
 </ul>
 
-</div>
-
-        </div>
-    );
+ </div>
+ </div>
+ );
 };
 
 export default StorySection;
