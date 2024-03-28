@@ -11,7 +11,6 @@ const StorySection = () => {
         .then(data => setStory(data))
     },[])
 
-    // story?.slice(0,6);
 return (
     <div>
         <div className="max-w-7xl mx-auto my-8 px-2">

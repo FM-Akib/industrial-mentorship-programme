@@ -10,6 +10,8 @@ const Stats = () => {
           preserveAspectRatio: 'xMidYMid slice'
         }
       };
+
+      
     return (
         <div className="bg-slate-50  pt-12 sm:pt-16">
   <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

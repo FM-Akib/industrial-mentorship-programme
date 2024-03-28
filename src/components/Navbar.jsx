@@ -25,13 +25,11 @@ return (
 </div>
 
         
-
-
-            <ul className={`${open? 'top-28':'top-[-490px]'} md:z-auto z-[-1]  left-0 absolute md:static md:flex md:items-center pb-12 md:pb-0 bg-slate-50 pl-9 md:pl-0 transition-all duration-500 ease-in w-full md:w-auto`}>
+ <ul className={`${open? 'top-28':'top-[-490px]'} md:z-auto z-[-1]  left-0 absolute md:static md:flex md:items-center pb-12 md:pb-0 bg-slate-50 pl-9 md:pl-0 transition-all duration-500 ease-in w-full md:w-auto`}>
             <li className="	 md:ml-14 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63]  text-gray-700  duration-500" to="/">Home</Link></li>
             <li className="md:ml-14 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/projectShowcase">Project Showcase</Link></li>
             <li className="md:ml-14 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/successStory">Success story</Link></li>
-            <li className="md:ml-14 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/">Registration</Link></li>
+            <li className="md:ml-14 md:my-0 my-7 text-xl"><Link className="hover:text-[#00BF63] text-gray-700  duration-500" to="/registration">Registration</Link></li>
            
             <button type="button" className=" md:ml-14 px-8 py-3 text-xl rounded bg-[#00BF63] text-gray-100">Login</button>
             </ul>
