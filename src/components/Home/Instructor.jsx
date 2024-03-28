@@ -26,10 +26,10 @@ const Instructor = () => {
             </div>
         </div>
         <div className="p-4">
-            <h3 className="text-lg font-medium mb-2">Product Title</h3>
-            <p className="text-gray-600 text-sm mb-4">Lorem ipsum dolor .</p>
+            <h3 className="text-lg font-medium mb-2">Abir Bin Ayub Khan</h3>
+            <p className="text-gray-600 text-sm mb-4">CEO & Founder </p>
             <div className="flex items-center justify-between">
-                <span className="font-bold text-lg">$19.99</span>
+                <span className="font-bold text-lg">Growth Garage</span>
                 <button className=" text-white font-bold rounded">
                 <Lottie  options={defaultOptions} height={40} width={40} />
                 </button>

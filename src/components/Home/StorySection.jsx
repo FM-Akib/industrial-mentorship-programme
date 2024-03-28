@@ -59,7 +59,7 @@ const StorySection = () => {
                 </li>
             </ul>
         </div>
-        <button type="button" className="px-8 py-3 font-semibold border rounded border-gray-800 text-gray-800">Border</button>
+        <button type="button" className="px-8 py-3 font-semibold border-t-4 rounded border-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-gray-700 text-gray-800">READ</button>
 
     </li>
 
@@ -117,6 +117,7 @@ const StorySection = () => {
             </ul>
         </div>
 
+        <button type="button" className="px-8 py-3 font-semibold border-t-4 rounded border-yellow-400 tracking-widest hover:bg-yellow-400 hover:text-gray-700 text-gray-800">READ</button>
     </li>
 
 
