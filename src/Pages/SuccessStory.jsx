@@ -10,7 +10,7 @@ const SuccessStory = () => {
     },[])
 
     return (
-                <div className="max-w-7xl mx-auto my-8 px-2">
+    <div className="  my-8 px-2 md:px-20 md:mt-20">
 
 <div className="py-10 flex tracking-tight text-gray-600 justify-center text-3xl md:text-4xl font-bold">
     Success Stories

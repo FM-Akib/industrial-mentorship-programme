@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "authorName": "John Doe",
+      "projectName": "React Todo App",
+      "dependencies": ["React", "Redux", "Bootstrap"],
+      "features": ["Add tasks", "Delete tasks", "Mark tasks as completed"],
+      "challenges": ["Implementing Redux store", "Styling with Bootstrap"],
+      "githubLink": "https://github.com/johndoe/react-todo-app",
+      "liveLink": "https://react-todo-app.netlify.app",
+      "img": "https://example.com/react-todo-app.png"
+    },
+    {
+      "id": 2,
+      "authorName": "Jane Smith",
+      "projectName": "E-commerce Website",
+      "dependencies": ["React", "Node.js", "Express", "MongoDB"],
+      "features": ["User authentication", "Product browsing", "Shopping cart"],
+      "challenges": ["Integrating with payment gateway", "Managing large datasets"],
+      "githubLink": "https://github.com/janesmith/ecommerce-website",
+      "liveLink": "https://ecommerce-website.com",
+      "img": "https://example.com/ecommerce-website.png"
+    },
+    {
+      "id": 3,
+      "authorName": "David Johnson",
+      "projectName": "Weather App",
+      "dependencies": ["React", "OpenWeatherMap API"],
+      "features": ["Display current weather", "Forecast for next 7 days"],
+      "challenges": ["Handling asynchronous data fetching", "Responsive design"],
+      "githubLink": "https://github.com/davidjohnson/weather-app",
+      "liveLink": "https://weather-app.netlify.app",
+      "img": "https://example.com/weather-app.png"
+    },
+    {
+      "id": 4,
+      "authorName": "Emily Brown",
+      "projectName": "Blog Website",
+      "dependencies": ["React", "Node.js", "Express", "MongoDB"],
+      "features": ["Create new blog posts", "Comment on posts", "User authentication"],
+      "challenges": ["Implementing user roles", "Optimizing database queries"],
+      "githubLink": "https://github.com/emilybrown/blog-website",
+      "liveLink": "https://blog-website.com",
+      "img": "https://example.com/blog-website.png"
+    },
+    {
+      "id": 5,
+      "authorName": "Michael Wilson",
+      "projectName": "Chat Application",
+      "dependencies": ["React", "Firebase", "Material-UI"],
+      "features": ["Real-time messaging", "User presence indicator", "Group chats"],
+      "challenges": ["Managing Firebase security rules", "Implementing notifications"],
+      "githubLink": "https://github.com/michaelwilson/chat-app",
+      "liveLink": "https://chat-app.com",
+      "img": "https://example.com/chat-app.png"
+    },
+    {
+      "id": 6,
+      "authorName": "Sophia Lee",
+      "projectName": "Recipe Finder",
+      "dependencies": ["React", "Edamam API"],
+      "features": ["Search recipes by ingredients", "Save favorite recipes", "Filter by diet type"],
+      "challenges": ["Handling complex API responses", "Implementing search functionality"],
+      "githubLink": "https://github.com/sophialee/recipe-finder",
+      "liveLink": "https://recipe-finder.netlify.app",
+      "img": "https://example.com/recipe-finder.png"
+    },
+    {
+      "id": 7,
+      "authorName": "William Martinez",
+      "projectName": "Portfolio Website",
+      "dependencies": ["React", "CSS Modules"],
+      "features": ["Showcase projects", "Contact form", "Resume download"],
+      "challenges": ["Designing responsive layouts", "SEO optimization"],
+      "githubLink": "https://github.com/williammartinez/portfolio-website",
+      "liveLink": "https://williammartinez.com",
+      "img": "https://example.com/portfolio-website.png"
+    },
+    {
+      "id": 8,
+      "authorName": "Olivia Taylor",
+      "projectName": "Quiz App",
+      "dependencies": ["React", "Trivia API"],
+      "features": ["Multiple choice questions", "Timer for each question", "Score tracking"],
+      "challenges": ["Handling user input", "Implementing state management"],
+      "githubLink": "https://github.com/oliviataylor/quiz-app",
+      "liveLink": "https://quiz-app.netlify.app",
+      "img": "https://example.com/quiz-app.png"
+    },
+    {
+      "id": 9,
+      "authorName": "Daniel Clark",
+      "projectName": "Task Manager",
+      "dependencies": ["React", "Firebase", "Materialize CSS"],
+      "features": ["Create tasks", "Assign tasks to team members", "Track task status"],
+      "challenges": ["Synchronizing real-time updates", "Authentication and authorization"],
+      "githubLink": "https://github.com/danielclark/task-manager",
+      "liveLink": "https://task-manager.com",
+      "img": "https://example.com/task-manager.png"
+    },
+    {
+      "id": 10,
+      "authorName": "Isabella Garcia",
+      "projectName": "Music Player",
+      "dependencies": ["React", "HTML Audio Element"],
+      "features": ["Play/pause controls", "Playlist management", "Shuffle and repeat"],
+      "challenges": ["Audio playback synchronization", "Implementing custom controls"],
+      "githubLink": "https://github.com/isabellagarcia/music-player",
+      "liveLink": "https://music-player.com",
+      "img": "https://example.com/music-player.png"
+    }
+  ]
+  

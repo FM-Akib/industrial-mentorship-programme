@@ -5,7 +5,7 @@ import StorySection from "../components/Home/StorySection";
 
 const Home = () => {
     return (
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 md:px-20">
             <Hero></Hero>
             <Stats></Stats>
             <Instructor></Instructor>

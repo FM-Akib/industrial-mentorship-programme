@@ -1,10 +1,27 @@
+import { useEffect } from "react";
+import { useState } from "react";
+import Projects from "../components/Projects/Projects";
 
 
 const ProjectShowcase = () => {
-   
-
+    const [projects,setProjects] = useState();
+    useEffect(() => {
+        fetch('projects.json')
+        .then(response => response.json())
+        .then(data => setProjects(data))
+    },[])
+    console.log(projects)
     return (
-        <div>
+        <div className="mt-36 ml-10 grid md:grid-cols-3 gap-6 ">
+
+            {
+                projects?.map(project => <Projects
+                key={project.id}
+                project={project}
+                ></Projects>)
+            }
+
+
             
         </div>
     );
