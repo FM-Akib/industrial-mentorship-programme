@@ -3,9 +3,10 @@ import Navbar from "../components/Navbar";
 
 const Layout = () => {
     return (
-        <div className="max-w-[1280px] mx-auto bg-[#F8FAFC]">
+        <div className=" bg-[#F8FAFC]">
             <Navbar></Navbar>
             <Outlet></Outlet>
+           
         </div>
     );
 };

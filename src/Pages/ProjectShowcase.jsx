@@ -12,7 +12,7 @@ const ProjectShowcase = () => {
     },[])
     console.log(projects)
     return (
-        <div className="mt-36 ml-10 grid md:grid-cols-3 gap-6 ">
+        <div className="pt-36 ml-10 grid md:grid-cols-3 gap-6 md:px-36">
 
             {
                 projects?.map(project => <Projects

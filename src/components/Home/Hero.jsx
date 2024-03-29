@@ -1,9 +1,8 @@
-import React from 'react';
 import hero from '../../assets/Hero.png';
 const Hero = () => {
   
     return (
-        <div className="bg-slate-50 md:py-12 pt-[100px] md:pt-[130px]">
+        <div className="bg-slate-50 md:py-12 pt-[100px] md:pt-[130px] md:px-36">
         
         <section className="mt-24 mx-auto max-w-screen-2xl pb-12 px-4 items-center lg:flex md:px-8">
             <div className="space-y-4 flex-1 sm:text-center lg:text-left">

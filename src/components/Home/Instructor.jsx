@@ -14,7 +14,7 @@ const Instructor = () => {
         }
       };
     return (
-        <><h2 className="text-center pt-16 text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl  pl-8">Meet Our Mentors</h2>
+        <><h2 className="text-center  pt-16 text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl  pl-8">Meet Our Mentors</h2>
          <Marquee pauseOnHover	speed={100}>
      <div className="flex gap-8 py-24 ">
 

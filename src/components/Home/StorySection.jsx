@@ -13,7 +13,7 @@ const StorySection = () => {
 
 return (
     <div>
-        <div className="max-w-7xl mx-auto my-8 px-2">
+        <div className="max-w-6xl mx-auto my-8 px-2">
 
 <div className="py-10 flex tracking-tight text-gray-600 justify-center text-3xl md:text-4xl font-bold">
     Success Stories

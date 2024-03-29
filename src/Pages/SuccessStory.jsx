@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import StoryCard from '../components/Success Story/StoryCard';
 
 const SuccessStory = () => {
@@ -10,7 +10,7 @@ const SuccessStory = () => {
     },[])
 
     return (
-    <div className="  my-8 px-2 md:px-20 md:mt-20">
+    <div className="  my-8 px-2  md:mt-20  md:px-36">
 
 <div className="py-10 flex tracking-tight text-gray-600 justify-center text-3xl md:text-4xl font-bold">
     Success Stories
